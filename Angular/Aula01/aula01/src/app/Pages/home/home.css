@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px 0 rgb(219, 219, 219);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 10%;
+    gap: 0.5rem;
+    transition: .1s ease-in;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 8rem;
+    width: 6rem;
+}
+
+.name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.preco {
+    font-weight: 500;
+}

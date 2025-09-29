@@ -1,0 +1,11 @@
+<main>
+    @for (produto of produtos(); track $index) {
+        <section>
+            <figure>
+                <img [src]="produto.img" [alt]="produto.nome">
+            </figure>
+            <p class="name">{{ produto.nome }}</p>
+            <p class="preco">{{ produto.preco }}</p>
+        </section>
+    }
+</main>
